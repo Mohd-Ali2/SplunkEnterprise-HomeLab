@@ -9,7 +9,6 @@
 
 ---
 
-
 ## Overview
 
 This project demonstrates the design and implementation of a small Security Operations Center (SOC) home lab using Splunk Enterprise.

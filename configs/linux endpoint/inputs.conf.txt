@@ -1,0 +1,45 @@
+[monitor:///var/log/syslog]
+index = main
+sourcetype = syslog
+disabled = false
+
+[monitor:///var/log/auth.log]
+index = main
+sourcetype = linux_secure
+disabled = false
+
+[monitor:///var/log/boot.log]
+index = main
+sourcetype = boot_log
+disabled = false
+
+[monitor:///var/log/dpkg.log]
+index = main
+sourcetype = dpkg
+disabled = false
+
+[monitor:///var/log/apt/history.log]
+index = main
+sourcetype = apt_history
+disabled = false
+
+[monitor:///home/*/.bash_history]
+index = main
+sourcetype = bash_history
+disabled = false
+blacklist = \.gz$|\.bz2$
+
+[monitor:///var/log/fail2ban.log]
+index = main
+sourcetype = fail2ban
+disabled = false
+
+[monitor:///var/log/sudo.log]
+index = main
+sourcetype = sudo
+disabled = false
+
+[monitor:///var/log/audit/audit.log]
+index = main
+sourcetype = auditd
+disabled = false

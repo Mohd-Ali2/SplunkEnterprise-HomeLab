@@ -1,0 +1,2 @@
+index=* host=linux sourcetype=syslog "CRON" "CMD"
+  ( "/dev/tcp" OR "bash -i" OR "nc -e" OR "socat" OR ">& /dev/tcp" ) | sort - _time

@@ -1,0 +1,1 @@
+index=* host="HP-Pavilion" EventCode=4624 Logon_Type=2 | stats count as failedlogons count by Logon_Type EventCode | where count > 3

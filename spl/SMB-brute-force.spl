@@ -1,0 +1,1 @@
+index=* host="HP-Pavilion" sourcetype="WinEventLog:Security" Logon_Type=3 EventCode=4625 Logon_Type=3 | stats count as Failed_smb_logins by Source_Network_Address | where Failed_smb_logins > 3

@@ -1,0 +1,2 @@
+index=* sourcetype=WinEventLog:Security EventCode=4720
+| table _time ComputerName Account_Name SAM_Account_Name

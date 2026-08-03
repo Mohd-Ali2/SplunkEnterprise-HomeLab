@@ -7,12 +7,16 @@ TimeFrame :
 Overview
 
 Attack :
+
+Attack Scenarios :
+
+Attack Source :
 MITRE :
 target :
 detected :
 escalated :
 
-Key metrics 
+Key metrics
 
 Total alert triggered :
 False Positives :
@@ -20,4 +24,6 @@ true positive :
 Incidents Created :
 
 Overall Outcome
+
+
 

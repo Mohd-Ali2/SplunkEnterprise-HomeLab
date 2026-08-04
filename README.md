@@ -83,9 +83,20 @@ configs/
 
 Contains
 
-- inputs.conf
-- outputs.conf
-- Sysmon configuration
+```
+├───linux endpoint
+│       inputs.conf
+│
+├───splunk server
+│       indexes.conf
+│       inputs.conf
+│       output.conf
+│
+└───windows endpoint
+        inputs.conf
+        output.conf
+        sysmonconfig-export.xml
+```
 
 ---
 

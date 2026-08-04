@@ -12,6 +12,7 @@ python3 ssh_sc.py
 
 - **OS**: Kali Linux
 - **Tool**: Custom python script
+- ![attack](/screenshots/SSH-brute-force-linux/SSH-brute-force-Attack.png)
 
 ## Target
 

@@ -1,95 +1,60 @@
 # SSH Brute Force Detection
 
-## Detection Information
+## Description
 
-| Field | Value |
-|-------|-------|
-| Detection Name | SSH Brute Force Detection |
-| Rule ID | DET-001 |
-| Severity | High |
-| Status | Enabled |
-| Platform | Linux |
-| Data Source | /var/log/auth.log |
-| MITRE ATT&CK | T1110 - Brute Force |
+Detects multiple failed SSH login attempts from the same source IP address within a short time period.
 
----
+## Data Source
 
-## Objective
-
-Detect multiple failed SSH authentication attempts originating from a single source IP address within a defined time window to identify potential brute-force attacks.
-
----
+- Linux: `/var/log/auth.log`
 
 ## Detection Logic
 
-This detection monitors Linux authentication logs for repeated SSH login failures. If more than **5 failed login attempts** are observed from the same source IP address within **15 minutes**, the alert is triggered.
-
----
+If more than 5 failed SSH login attempts are observed from the same source IP address within 15 minutes, an alert is generated.
 
 ## SPL Query
 
 See:
 
-```text
-spl/SSH-brute-force-linux.spl
-```
+`spl/SSH-brute-force-linux.spl`
 
----
+## MITRE ATT&CK
 
-## Expected Output
+- T1110 - Brute Force
 
-The alert should return:
+## Investigation
 
-- Timestamp
-- Source IP
-- Username
-- Host
+When this alert triggers, verify:
+
+- Source IP address
+- Target username
 - Number of failed login attempts
+- Target host
+- Whether a successful login occurred afterwards
 
-Example:
+## True Positive Example
 
-| Source IP | Username | Attempts |
-|-----------|----------|----------|
-| 192.168.31.185 | admin | 14 |
+During this lab, a custom Python script was executed from the Kali attacker machine against the Debian SSH service.
 
----
+The detection successfully identified:
 
-## MITRE ATT&CK Mapping
+- Source IP: 192.168.31.185
+- Username: admin
+- Failed Attempts: 14
 
-| Category | Value |
-|----------|-------|
-| Tactic | Credential Access |
-| Technique | Brute Force |
-| Technique ID | T1110 |
-
----
-
-## Investigation Guide
-
-When this alert triggers:
-
-1. Identify the attacking IP address.
-2. Determine the targeted username(s).
-3. Count the number of failed authentication attempts.
-4. Check whether a successful login occurred afterwards.
-5. Review authentication activity from the same IP on other systems.
-6. Determine whether the activity is authorized (penetration test) or malicious.
-
----
+The alert was generated as expected.
 
 ## Possible False Positives
 
-- User repeatedly entering an incorrect password.
-- Automated vulnerability scanners.
-- Internal penetration testing.
-- Misconfigured automation scripts.
+Although this lab generated a true positive, similar alerts could also be caused by:
 
----
+- A user repeatedly entering an incorrect password.
+- Internal penetration testing.
+- Authorized vulnerability scanning.
 
 ## Recommended Response
 
-- Block or rate-limit the attacking IP address.
-- Reset credentials if compromise is suspected.
-- Enable Multi-Factor Authentication (MFA).
-- Review authentication logs for lateral movement.
-- Continue monitoring for additional attempts.
+- Verify whether the source IP is authorized.
+- Check if any login attempts were successful.
+- Block the attacking IP if the activity is malicious.
+- Continue monitoring for additional authentication attempts.

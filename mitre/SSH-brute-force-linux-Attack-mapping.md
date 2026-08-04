@@ -1,1 +1,1 @@
-**Brute froce**: **T1110**
+**Brute Force : T1110**

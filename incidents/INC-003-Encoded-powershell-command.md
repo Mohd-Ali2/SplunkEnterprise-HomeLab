@@ -1,38 +1,27 @@
-Date :
+# INC-XXX – Incident Name
 
-Severity :
+## Date
 
-Status :
+## Severity
 
-Affected Host :
+## Status
 
-MITRE ATT\&CK :
+## Affected Host
 
-Splunk Alert :
+## Splunk Alert
 
+## MITRE ATT&CK
 
+## Description
 
+## Evidence
 
+### Alert Screenshot
 
+### Event Screenshot
 
+### Log Source
 
-Description 
+## Response Actions Taken
 
-
-
-Evidence
-
-
-
-Alert Screenshot :
-
-SPL Query used :
-
-
-
-Raw log snippet:
-
-
-
-Response Action Taken
-
+## Conclusion

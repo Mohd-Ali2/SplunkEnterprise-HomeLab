@@ -42,7 +42,6 @@ The detection successfully identified:
 - Username: admin
 - Failed Attempts: 14
 
-The alert was generated as expected.
 
 ## Possible False Positives
 

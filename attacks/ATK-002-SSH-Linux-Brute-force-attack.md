@@ -32,9 +32,11 @@ The Splunk alert triggered successfully. The dashboard displayed multiple 'Faile
 ## Screenshots
 
 **Dashbord**
+
 ![dashbord](/screenshots/SSH-brute-force-linux/SSH-brute-force-attack-SOC-dashbaord.png)
 
 **Alert triggerd**
+
 ![alert](/screenshots/SSH-brute-force-linux/Alert-for-SSH-brute-force-attack.png)
 
 

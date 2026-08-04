@@ -93,7 +93,25 @@ Contains
 
 ```
 spl/
+
+├── Account-creation-windows.spl
+├── Encoded-powershell-command.spl
+├── Linux-cron-persistence.spl
+├── SMB-brute-force.spl
+├── SSH-brute-force-linux.spl
+├── Successful-Login-after-multiple-failed-attempts.spl
+└── Windows-Failed-login-Type2.spl
+ 
 ```
+
+
+   
+    
+    
+    
+    
+    
+
 
 Contains detection queries used during the investigation.
 

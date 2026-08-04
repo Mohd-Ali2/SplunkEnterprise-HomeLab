@@ -24,13 +24,11 @@ See:
 
 ## Investigation
 
-When this alert triggers, verify:
-
-- Source IP address
-- Target username
-- Number of failed login attempts
-- Target host
-- Whether a successful login occurred afterwards
+- Source IP address : 192.168.31.185
+- Target username : Admin
+- Number of failed login attempts : 8
+- Target host : Linux Debian
+- Whether a successful login occurred afterwards : False
 
 ## True Positive Example
 
@@ -41,15 +39,6 @@ The detection successfully identified:
 - Source IP: 192.168.31.185
 - Username: admin
 - Failed Attempts: 14
-
-
-## Possible False Positives
-
-Although this lab generated a true positive, similar alerts could also be caused by:
-
-- A user repeatedly entering an incorrect password.
-- Internal penetration testing.
-- Authorized vulnerability scanning.
 
 ## Recommended Response
 

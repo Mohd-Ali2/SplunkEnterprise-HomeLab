@@ -30,7 +30,7 @@ See:
 - Target host : Linux Debian
 - Whether a successful login occurred afterwards : False
 
-## True Positive Example
+## True Positive 
 
 During this lab, a custom Python script was executed from the Kali attacker machine against the Debian SSH service.
 

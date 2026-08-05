@@ -153,8 +153,8 @@ LinkedIn
 
 https://www.linkedin.com/in/mohdali02/
 
-GitHub
+TryhackMe
 
-https://github.com/Mohd-Ali2
+https://tryhackme.com/p/chan4o
 
 ---

@@ -39,12 +39,18 @@ Screenshots :
 ## MITRE Mapping
 
 MITRE ID : T1110.001
+
 Phase : Attempt
+
 Technique Name : Brute Force: Password Guessing
+
 Tactic : Credential Access (TA0006)
 
 MITRE ID : T1078
+
 Phase : Success
+
 Technique Name : Valid account
+
 Tactic : Initial Access (TA0001), Persistence (TA0003), Privilege Escalation (TA0004)
 

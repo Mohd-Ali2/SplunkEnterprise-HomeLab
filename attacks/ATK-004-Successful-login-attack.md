@@ -40,6 +40,11 @@ Splunk alert was fired successfully when multiple SSH failures occurs with one s
  ![attack](/screenshots/SSH-brute-force-successful-login/Alert%20fired%20Successfully.png)
 
 
+#### Dashboard
+
+ ![attack](/screenshots/SSH-brute-force-successful-login/After-SOC%20Dashboard%20Overview.png)
+
+
 ## MITRE Mapping
 
 `MITRE ID : T1110.001`

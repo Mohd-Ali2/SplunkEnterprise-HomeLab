@@ -14,7 +14,7 @@ hydra -t 4 -l linux -P /home/kali/Desktop/passlist.txt ssh://192.168.31.70
 - **OS**: Kali Linux
 - **Tool**: Custom python script
 
-  ![attack](/screenshots/SSH-brute-force-linux/SSH-brute-force-Attack.png)
+  ![attack](/screenshots/SSH-brute-force-successful-login/Command-used.png)
  
 
 ## Target

@@ -38,8 +38,8 @@ Screenshots :
 
 ## MITRE Mapping
 
-`MITRE ID : T1110.001`
-`Phase : Attempt`
+`MITRE ID : T1110.001
+Phase : Attempt`
 Technique Name : Brute Force: Password Guessing
 Tactic : Credential Access (TA0006)
 

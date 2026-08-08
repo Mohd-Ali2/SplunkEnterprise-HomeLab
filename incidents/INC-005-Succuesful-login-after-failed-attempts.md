@@ -6,7 +6,7 @@
 
 ## Severity
 
-High
+Critical
 
 ## Status
 

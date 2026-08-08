@@ -25,20 +25,19 @@ See:
 ## Investigation
 
 - Source IP address : 192.168.31.185
-- Target username : Admin
+- Target username : linux
 - Number of failed login attempts : 8
 - Target host : Linux Debian
 - Successful login occurred afterwards : True
 
 ## True Positive
 
-During this lab, a custom Python script was used from the Kali attacker machine to generate multiple failed SSH login attempts against the Debian SSH service. A valid SSH login was then performed from the same source IP.
-
+During this lab, I used Hydra for simulating the attack which brute force the SSH and gain the access over compromised SSH service.
 The detection successfully identified the failed attempts followed by the successful login.
 
 - Source IP: 192.168.31.185
-- Username: Admin
-- Failed Attempts: 8
+- Username: linux
+- Failed Attempts: 10
 - Successful Login: Yes
 
 ## Recommended Response

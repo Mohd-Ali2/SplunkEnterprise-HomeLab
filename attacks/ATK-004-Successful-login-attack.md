@@ -38,8 +38,9 @@ Splunk alert was fired successfully when multiple SSH failures occurs with one s
 
 ## MITRE Mapping
 
-MITRE ID : T1110.001.
-Phase : Attempt.
+`MITRE ID : T1110.001`
+
+`Phase : Attempt`
 Technique Name : Brute Force: Password Guessing
 Tactic : Credential Access (TA0006)
 

@@ -1,4 +1,4 @@
-# Splunk SOC Home Lab
+# Splunk Enterprise Investigation & Detection Home Lab
 
 ![Splunk](https://img.shields.io/badge/Splunk-Enterprise-green)
 ![Sysmon](https://img.shields.io/badge/Sysmon-v15-blue)

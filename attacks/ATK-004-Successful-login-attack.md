@@ -35,6 +35,8 @@ Splunk alert was fired successfully when multiple SSH failures occurs with one s
 
 ## Screenshots 
 
+ ![attack](/screenshots/SSH-brute-force-successful-login/Alert%20fired%20Successfully.png)
+
 
 ## MITRE Mapping
 

@@ -32,7 +32,7 @@ The alert detected multiple failed SSH login attempts from a single source IP ad
 
 ### Alert Screenshot
 
-![alert](screenshots/SSH-brute-force-successful-login/Alert%20fired%20Successfully.png)
+![attack](/screenshots/SSH-brute-force-successful-login/Alert%20fired%20Successfully.png)
 
 
 ### SPL Query

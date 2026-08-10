@@ -11,8 +11,10 @@ crackmapexec smb 192.168.31.113 -u admin -p /home/kali/Desktop/passlist.txt
 
 ## Target 
 
-OS : Windows 11.
-Service Targeted : SMB.
+OS : Windows 11
+
+Service Targeted : SMB
+
 Protocol : SMB
 
 

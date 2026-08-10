@@ -1,42 +1,51 @@
-Detection:
+# SMB Brute Force Detection
 
+## Description
 
+Detects multiple failed SMB authentication attempts from the same source IP address within a short time period.
 
-Detection Name :
+## Data Source
 
-Rule ID :
+- Windows Security Event Log
+- Event ID 4625
+- Logon Type 3
 
-MITRE ATT\&CK :
+## Detection Logic
 
-Severity :
+If multiple failed network logon attempts are observed from the same source IP address, the detection generates an alert for possible SMB brute-force activity.
 
-Data Source :
+## SPL Query
 
+See:
 
+`spl/SMB-brute-force.spl`
 
-Objective 
+## MITRE ATT&CK
 
+- T1110 - Brute Force
 
+## Investigation
 
-SPL Query :
+- Source IP address : 192.168.31.185
+- Target username : admin
+- Number of failed login attempts : 11
+- Target host : Windows 11
+- Logon Type : 3
 
+## True Positive
 
+During this lab, CrackMapExec was used from the Kali attacker machine to generate multiple failed SMB authentication attempts against the Windows 11 endpoint.
 
-Expected Output :
+The detection successfully identified the activity.
 
+- Source IP : 192.168.31.185
+- Username : admin
+- Failed Attempts : 11
 
+## Recommended Response
 
-MITRE Technique Mapping 
-
-
-
-Tactic :
-
-Technique :
-
-Procedure :
-
-
-
-False Positives
-
+- Verify whether the source IP is authorized.
+- Check the targeted account for successful logins.
+- Review other Windows authentication events from the same IP.
+- Block the source IP if the activity is malicious.
+- Continue monitoring for further authentication attempts.

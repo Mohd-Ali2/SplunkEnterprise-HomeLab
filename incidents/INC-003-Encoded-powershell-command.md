@@ -36,11 +36,14 @@ The Alert detected an execution of a PowerShell Encoded Command which possibly i
 
 ### Alert Screenshot
 
-![alert](\screenshots\Powershell-encoded-command\Triggered-Alert.png)
+#### Alert 
 
-### Event Screenshot
+![alert](/screenshots/Powershell-encoded-command/Triggered-Alert.png)
 
-![alert](\screenshots\Powershell-encoded-command\Event-log.png)
+#### Dashboard
+
+![dashboard](/screenshots/Powershell-encoded-command/Event-log.png)
+
 
 ## SPL Query
 

@@ -40,7 +40,7 @@ The Alert detected an execution of a PowerShell Encoded Command which possibly i
 
 ![alert](/screenshots/Powershell-encoded-command/Triggered-Alert.png)
 
-#### Dashboard
+#### Event
 
 ![dashboard](/screenshots/Powershell-encoded-command/Event-log.png)
 

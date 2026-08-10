@@ -32,7 +32,7 @@ The alert triggered when multiple failed SMB authentication were performed withi
 
 ### Alert Screenshot
 
-![Alert](/screenshots/SMB-brute-force/Alert-Triggerd.png)
+![alert](/screenshots/SMB-brute-force/Triggered-Alerts.png)
 
 ### SPL Query
 

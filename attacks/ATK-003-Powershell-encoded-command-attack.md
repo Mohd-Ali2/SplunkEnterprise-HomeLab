@@ -20,7 +20,7 @@ Attack Vector : PowerShell execution over SSH
 
 ## Expected Detection
 
-The Splunk Detection rule is designed to capture PowerShell Encoded Commands where the files is Downloaded into the System such as Malware to and Sysmon ID 1 (process creation) where the Command Line contains -EncdoedCommand and Encoded.
+The Splunk detection rule monitors Sysmon Event ID 1 (Process Creation) and triggers when powershell.exe is executed with -EncodedCommand, capturing encoded PowerShell downloads of malicious files into the system.
 
 
 ## Actual Detection

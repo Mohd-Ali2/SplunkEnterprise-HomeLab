@@ -1,44 +1,27 @@
-Detection:
+# DET name here
+
+## Description
 
 
+## MITRE ATT\&CK 
 
-Detection Name :
+## Severity
 
-Rule ID :
+## Data Source
 
-MITRE ATT\&CK :
+## SPL Query 
 
-Severity :
+## Expected Output 
 
-Data Source :
+## MITRE Technique Mapping
 
+## Tactic 
 
+## Technique 
 
-Objective
+## Procedure 
 
-
-
-SPL Query :
-
-
-
-Expected Output :
-
-
-
-MITRE Technique Mapping
-
-
-
-Tactic :
-
-Technique :
-
-Procedure :
-
-
-
-False Positives
+## True Positives
 
 
 

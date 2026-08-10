@@ -41,7 +41,7 @@ The Splunk Alert Triggered Successfully because the command line contains the Po
 
 ## MITRE Mapping
 
-- **Execution (T1059.001)** – PowerShell
-- **Defense Evasion (T1027)** – Obfuscation
-- **C2 (T1105)** – Ingress Transfer
+- **Execution (T1059.001)** PowerShell
+- **Defense Evasion (T1027)** Obfuscation
+- **C2 (T1105)** Ingress Transfer
 

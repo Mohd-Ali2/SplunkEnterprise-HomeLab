@@ -1,6 +1,9 @@
-## Detection Name
+# PowerShell Encoded Command Detected
 
-PowerShell Encoded Command Detected
+## Description
+
+Detect the execution of PowerShell with the `-EncodedCommand` parameter, which may indicate obfuscated PowerShell execution used to evade basic command-line detection.
+
 
 ## MITRE ATT&CK
 
@@ -17,11 +20,6 @@ Medium
 - Sysmon Event ID 1 – Process Creation
 - Splunk Universal Forwarder
 
-## Objective
-
-Detect the execution of PowerShell with the `-EncodedCommand` parameter,
-which may indicate obfuscated PowerShell execution used to evade basic
-command-line detection.
 
 ## SPL Query
 

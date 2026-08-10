@@ -39,11 +39,11 @@ The detection should return Sysmon Event ID 1 process creation events where powe
 ## MITRE Technique Mapping
 
 
-**Tactic** Execution
+**Tactic** : Execution
 
-**Technique** T1059.001 PowerShell
+**Technique** : T1059.001 PowerShell
 
-**Procedure** An adversary may execute commands through PowerShell using the -EncodedCommand parameter to obfuscate the command and evade basic command-line detection.
+**Procedure** : An adversary may execute commands through PowerShell using the -EncodedCommand parameter to obfuscate the command and evade basic command-line detection.
 
 
 ## True Positve 

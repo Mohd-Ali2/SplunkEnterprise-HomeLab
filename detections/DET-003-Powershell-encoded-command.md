@@ -1,13 +1,11 @@
-# Detection – PowerShell Encoded Command
-
 ## Detection Name
 
 PowerShell Encoded Command Detected
 
 ## MITRE ATT&CK
 
-T1059.001 – PowerShell  
-T1027 – Obfuscated Files or Information
+**T1059.001** PowerShell  
+**T1027** Obfuscated Files or Information
 
 ## Severity
 
@@ -36,16 +34,19 @@ Image="*\\powershell.exe"
 
 ## Expected Output
 
+
 The detection should return Sysmon Event ID 1 process creation events where powershell.exe is executed with the -EncodedCommand parameter.
 
 
 ## MITRE Technique Mapping
+
 
 **Tactic** Execution
 
 **Technique** T1059.001 PowerShell
 
 **Procedure** An adversary may execute commands through PowerShell using the -EncodedCommand parameter to obfuscate the command and evade basic command-line detection.
+
 
 ## True Positve 
 

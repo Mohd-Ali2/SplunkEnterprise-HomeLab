@@ -29,6 +29,14 @@ The Splunk alert triggered successfully. Multiple failed SMB authentication atte
 
 ## Screenshots
 
+#### Command Used
+
+![command](screenshots/SMB-brute-force/Linux-Command.png)
+
+#### Alert
+
+![alert](screenshots/SMB-brute-force/Triggered-Alerts.png)
+
 
 ## MITRE Mapping 
 

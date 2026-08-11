@@ -345,7 +345,7 @@ The project demonstrates practical experience with endpoint telemetry, SPL-based
 
 **Mohammad Ali**
 
-Cybersecurity | SOC Analyst
+SOC Analyst
 
 LinkedIn
 

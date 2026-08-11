@@ -153,13 +153,78 @@ screenshots/
 Including:
 
 - Splunk installation
+- Splunk Dashboard
 - Universal Forwarder installation
 - Sysmon installation
 - Attack execution
 - Splunk detections
 - Incident response
 
+## Attack Simulations
+
+The attacks/ directory contains the documentation for each simulated attack.
+
+`attacks/`
+
+
+```
+├── ATK-001-SSH-Linux-Brute-force-attack.md
+├── ATK-002-SMB-attack.md
+├── ATK-003-Powershell-encoded-command-attack.md
+├── ATK-004-Suspicious-account-creation.md
+├── ATK-005-SSH-Successful-login-brute-force-attack.md
+├── ATK-006-Windows-failed-login-attack.md
+└── ATK-007-Linux-Cron-persistence.md
+```
+
+Each attack document contains the attack purpose, execution details, target, expected detection, actual result, screenshots, and MITRE ATT&CK mapping where applicable.
+
 ---
+
+## Detection Rules
+
+The `detections/` directory contains the detection documentation for the seven alerts created in Splunk.
+
+```
+detections/
+
+├── DET-001-SSH-brute-force.md
+├── DET-002-SMB-brute-force.md
+├── DET-003-Powershell-encoded-command.md
+├── DET-004-Account-creation.md
+├── DET-005-Successful-login-after-failed-logins.md
+├── DET-006-Windows-failed-logins-type-2.md
+└── DET-007-Linux-cron.md
+```
+
+Each detection document describes:
+
+- Detection purpose
+- Data source
+- Detection logic
+- SPL query
+- MITRE ATT&CK mapping
+- Investigation points
+- True positive example
+- Recommended response
+
+## SPL Queries
+
+The spl/ directory contains the SPL queries used for the detections.
+
+`spl/`
+
+```
+├── Account-creation-windows.spl
+├── Encoded-powershell-command.spl
+├── Linux-cron-persistence.spl
+├── SMB-brute-force.spl
+├── SSH-brute-force-linux.spl
+├── Successful-Login-after-multiple-failed-attempts.spl
+└── Windows-Failed-login-Type2.spl
+```
+
+These queries were used to search endpoint telemetry and identify the activity generated during the attack simulations.
 
 # Configuration Files
 
@@ -167,7 +232,28 @@ Including:
 configs/
 ```
 
-Contains
+## Incident Reports
+
+The `incidents/` directory contains the investigation records for the simulated security incidents.
+
+`incidents/`
+
+```
+├── INC-001-ssh-brute-force.md
+├── INC-002-SMB-brute-force.md
+├── INC-003-Encoded-powershell-command.md
+├── INC-004-Suspicious-account-creation.md
+├── INC-005-Succuesful-login-after-failed-attempts.md
+├── INC-006-Windows-Failed-logins-type-2.md
+├── INC-007-Linux-Cron-persistence.md
+└── Mega-INC-report.md
+```
+
+
+The incident reports contain the alert information, evidence, SPL query, raw log/event information, response actions, and investigation conclusion.
+
+
+## Contains
 
 ```
 ├───linux endpoint
@@ -184,50 +270,61 @@ Contains
         sysmonconfig-export.xml
 ```
 
+These configurations cover log collection, forwarding, Splunk indexes, and Sysmon configuration.
+
 ---
 
-# SPL Queries
+## Documentation
+
+The `docs/` directory contains setup and troubleshooting documentation.
+
+`docs/`
 
 ```
-spl/
-
-├── Account-creation-windows.spl
-├── Encoded-powershell-command.spl
-├── Linux-cron-persistence.spl
-├── SMB-brute-force.spl
-├── SSH-brute-force-linux.spl
-├── Successful-Login-after-multiple-failed-attempts.spl
-└── Windows-Failed-login-Type2.spl
- 
+├── How-logs-are-Collected.md
+├── lab-setup.md
+├── Linux-audit-logs.md
+├── Sysmon-setup.md
+├── Troubleshooting.md
+└── Universal-Forwarder-installation.md
 ```
 
+## MITRE ATT&CK
 
-   
-    
-    
-    
-    
-    
+MITRE ATT&CK techniques are mapped to the simulated activity and documented within the detection and attack documentation.
 
-
-Contains detection queries used during the investigation.
+The `mitre/` directory contains the dedicated ATT&CK mapping documentation.
 
 ---
 
 # Skills Demonstrated
 
-- SIEM Administration
-- Splunk Search Processing Language (SPL)
+- Skills Demonstrated
+- Splunk Enterprise Administration
+- SIEM Configuration
+- SPL Query Development
+- Log Collection and Analysis
 - Windows Event Log Analysis
 - Sysmon Analysis
+- Linux Log Analysis
+- Security Alert Creation
 - Threat Detection
+- Attack Simulation
 - Incident Investigation
 - Incident Response
-- Network Monitoring
-- Endpoint Monitoring
+- MITRE ATT&CK Mapping
+- SOC Dashboard Development
+- Security Event Correlationg
 
 ---
 
+## Project Outcome
+
+This project provided hands-on experience with the complete SIEM investigation workflow.
+
+I configured the environment, collected endpoint telemetry, created 7 Splunk detections, simulated 7 controlled attacks, investigated the resulting events, created 1 SOC dashboard, and documented each detection and incident.
+
+The project demonstrates practical experience with endpoint telemetry, SPL-based detection, alert investigation, and SOC incident documentation.
 
 # Author
 

@@ -117,6 +117,9 @@ Event Investigation
        ↓
 Incident Documentation
 ```
+
+For each attack, I captured the relevant evidence and documented the investigation.
+
 ---
 
 

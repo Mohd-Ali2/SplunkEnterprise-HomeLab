@@ -11,7 +11,9 @@
 
 ## Overview
 
-This project demonstrates the design and implementation of a small Security Operations Center (SOC) home lab using Splunk Enterprise.
+This project is a small SOC environment built to practice the workflow used in a Security Operations Center:
+
+**Generate Attack → Collect Logs → Detect Activity → Investigate → Document Incident**
 
 This lab simulates real-world adversary behavior across both Windows and Linux environments. By ingesting granular endpoint telemetry—including Sysmon, Windows Event Logs, and Linux system logs the project demonstrates end-to-end SOC capabilities, from threat detection and log correlation to incident response.
 

@@ -234,11 +234,6 @@ The spl/ directory contains the SPL queries used for the detections.
 
 These queries were used to search endpoint telemetry and identify the activity generated during the attack simulations.
 
-# Configuration Files
-
-```
-configs/
-```
 
 ## Incident Reports
 

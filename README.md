@@ -34,6 +34,26 @@ The goal is to gain practical experience with SIEM, endpoint telemetry, threat d
 - PowerShell
 - SSH
 
+
+## 🛠️ Technologies & Tools Used
+
+**SIEM & Endpoint Telemetry**<br>
+![Splunk](https://img.shields.io/badge/Splunk-%23000000.svg?style=for-the-badge&logo=splunk&logoColor=white)
+![Splunk Universal Forwarder](https://img.shields.io/badge/Splunk_Universal_Forwarder-%23000000.svg?style=for-the-badge&logo=splunk&logoColor=white)
+![Sysmon](https://img.shields.io/badge/Sysmon-%230078D4.svg?style=for-the-badge&logo=microsoft&logoColor=white)
+![Windows Event Logs](https://img.shields.io/badge/Windows_Event_Logs-%230078D4.svg?style=for-the-badge&logo=windows&logoColor=white)
+
+**Infrastructure & Operating Systems**<br>
+![Windows 11](https://img.shields.io/badge/Windows_11-%230078D4.svg?style=for-the-badge&logo=windows-11&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-%23557C94.svg?style=for-the-badge&logo=kali-linux&logoColor=white)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-%23183A61.svg?style=for-the-badge&logo=virtualbox&logoColor=white)
+
+**Attack, Administration, & Networking Tools**<br>
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-%23222222.svg?style=for-the-badge)
+![SSH](https://img.shields.io/badge/SSH-%23222222.svg?style=for-the-badge&logo=gnubash&logoColor=white)
+
+
 ---
 
 # Project Structure

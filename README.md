@@ -54,13 +54,34 @@ The goal is to gain practical experience with SIEM, endpoint telemetry, threat d
 ```
 Splunk-Home-Lab/
 
-├── attacks/
-├── configs/
-├── diagrams/
-├── docs/
-├── reports/
-├── screenshots/
-├── spl/
+├───attacks
+├───configs
+│   ├───linux endpoint
+│   ├───splunk server
+│   └───windows endpoint
+├───dashboard
+├───detections
+├───diagrams
+├───docs
+├───incidents
+├───mitre
+├───reports
+├───screenshots
+│   ├───001-SSH-brute-force-linux
+│   ├───002-SMB-brute-force
+│   ├───003-Powershell-encoded-command
+│   ├───004-Account-creation
+│   ├───005-SSH-brute-force-successful-login
+│   ├───006-Windows-failed-login-type-2
+│   ├───007-Linux-Cron-persistence
+│   ├───Kali-linux
+│   ├───Linux-Endpoint
+│   ├───Splunk-Server
+│   │   └───splunk-installation
+│   └───Windows-Endpoint
+│       ├───splunk-forwarder
+│       └───sysmon
+│───spl
 └── README.md
 ```
 

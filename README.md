@@ -44,7 +44,7 @@ The goal is to gain practical experience with SIEM, endpoint telemetry, threat d
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 
-![Debian](https://img.shields.io/badge/Debian-%23A81D33.svg?style=for-the-badge&logo=debian&logoColor=white)
+![SMB Protocol](https://img.shields.io/badge/SMB_Protocol-%230078D4.svg?style=for-the-badge&logo=windows&logoColor=white)
 
 
 ---

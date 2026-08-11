@@ -6,10 +6,6 @@ The SOC Dashboard was created in Splunk Enterprise to provide a central view of 
 
 The dashboard uses a time range filter and displays authentication activity, endpoint events, PowerShell activity, persistence-related events, and network activity.
 
-## Time Range
-
-The dashboard is configured to display the last 7 days by default.
-
 ## Dashboard Panels
 
 ### Events by Hosts
@@ -28,25 +24,17 @@ Displays failed authentication activity over time.
 
 Shows the total number of SSH-related events.
 
-Current value: 452
-
 ### Failed Logins
 
 Shows the total number of failed login events.
-
-Current value: 116
 
 ### Successful Logins
 
 Shows the total number of successful login events.
 
-Current value: 14
-
 ### Top Destination IPs
 
 Shows the destination IP addresses observed in the collected events.
-
-The dashboard currently shows addresses such as 8.8.8.8 and several IPv6 addresses.
 
 ### Top DNS Queries
 

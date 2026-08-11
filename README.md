@@ -130,11 +130,15 @@ A SOC dashboard was created to provide a central view of security activity and d
 
 The dashboard is used to review:
 
-Authentication activity
-Failed login activity
-Detected attacks
-Alert activity
-Security events
+- Authentication activity
+
+- Failed login activity
+
+- Detected attacks
+
+- Alert activity
+
+- Security events
 
 Dashboard screenshots are available under:
 

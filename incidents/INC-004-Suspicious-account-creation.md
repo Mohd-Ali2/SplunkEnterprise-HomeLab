@@ -81,10 +81,12 @@ Source : WinEventLog:Security
 ## Response Action Taken
 
 Upon verifying the alert as a True Positive, the following incident response actions were executed:
-* **Containment:** Isolated the compromised host from the corporate network to prevent lateral movement.
-* **Eradication:** Disabled and completely removed the rogue local account (`LabAdmin`) and revoked its local administrator privileges.
-* **Credential Reset:** Forced an immediate password reset and revoked all active sessions for the compromised user (`SubjectUserName`) that was used to execute the PowerShell commands.
-* **Investigation:** Initiated a full endpoint forensic scan to determine the initial access vector (e.g., malicious payload, phishing) that allowed the attacker to run commands in the first place.
+
+- Verified the alert in splunk
+- Confirmed that new local account was created
+- Confirmed that new local account was added to local Security Enabled group
+- New account was Successfully Removed from Compromised machine
+- All Existing Account Credentials were reset
 
 ## Conclusion
 

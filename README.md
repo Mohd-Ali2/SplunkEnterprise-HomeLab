@@ -32,9 +32,7 @@ The goal is to gain practical experience with SIEM, endpoint telemetry, threat d
 - Kali Linux
 - Windows 11
 - PowerShell
-- Nmap
 - SSH
-- VirtualBox
 
 ---
 

@@ -5,7 +5,7 @@
 ![Windows](https://img.shields.io/badge/Windows-11-0078D6)
 ![Kali Linux](https://img.shields.io/badge/Kali-Linux-557C94)
 ![SIEM](https://img.shields.io/badge/SIEM-Splunk-success)
-![Status](https://img.shields.io/badge/Project-In%20Progress-orange)
+![Status](https://img.shields.io/badge/Project-Completed-orange)
 
 ---
 

@@ -75,8 +75,6 @@ Splunk-Home-Lab/
 ├───diagrams
 ├───docs
 ├───incidents
-├───mitre
-├───reports
 ├───screenshots
 │   ├───001-SSH-brute-force-linux
 │   ├───002-SMB-brute-force

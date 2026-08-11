@@ -142,6 +142,8 @@ The dashboard is used to review:
 
 Dashboard screenshots are available under:
 
+`/screenshots`
+
 # Screenshots
 
 Project screenshots are available inside:

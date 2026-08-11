@@ -11,7 +11,8 @@ Before installing the forwarder, I had to make sure of two things:
 I installed the forwarder agent on both my Windows and Linux target machines. 
 
 * **For Windows:** I downloaded the MSI installer from the Splunk website. During the setup wizard, it asks for a deployment server and an indexer. I just entered the IP address of my main Splunk server for the indexer and set the receiving port to `9997`. 
-* **For Linux:** I downloaded the `.deb` package for my Debian/Kali machine and installed it using the terminal:
+* **For Linux:** I downloaded the `.deb` package for my Debian/Kali machine and installed it using the terminal :
+  
   ```bash
   dpkg -i splunkforwarder-*.deb
   ```

@@ -1,1 +1,5 @@
-index=* host="HP-Pavilion" EventCode=4624 Logon_Type=2 | stats count as failedlogons count by Logon_Type EventCode | where count > 3
+index=* EventCode=4625 Logon_Type=2
+| stats count min(_time) as firstTime max(_time) as lastTime by Account_Name, ComputerName
+| where count >= 3
+| convert ctime(firstTime) ctime(lastTime)
+| rename ComputerName AS "Target Host", Account_Name AS "Targeted Account", count AS "Failed Attempts", firstTime AS "First Attempt", lastTime AS "Last Attempt"

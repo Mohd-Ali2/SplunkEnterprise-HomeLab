@@ -15,6 +15,7 @@ Resolved
 ## Affected Host
 
 OS : Linux (Kali Linux)
+
 Host : Kali-Linux
 
 ## MITRE ATT&CK

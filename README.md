@@ -179,7 +179,15 @@ The attacks/ directory contains the documentation for each simulated attack.
 └── ATK-007-Linux-Cron-persistence.md
 ```
 
-Each attack document contains the attack purpose, execution details, target, expected detection, actual result, screenshots, and MITRE ATT&CK mapping where applicable.
+Each attack document contains : 
+
+- attack purpose
+- execution details
+- target
+- expected detection
+- actual result
+- screenshots
+- MITRE ATT&CK 
 
 ---
 

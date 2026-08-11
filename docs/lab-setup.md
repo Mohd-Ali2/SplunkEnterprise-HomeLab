@@ -2,12 +2,12 @@
 
 Here is a quick breakdown of how I built and connected the virtual environment for this SOC home lab.
 
-## 1. The Virtual Machines
-The lab is built using VirtualBox and consists of four main virtual machines:
-* **Splunk Server:** The central brain of the lab. It runs Splunk Enterprise, receives all the logs, and hosts the dashboards and alerts.
-* **Windows 11 Endpoint:** The primary victim machine. It is configured with Sysmon and native Windows Event Logs to track local and network attacks.
-* **Linux Endpoint (Debian):** The secondary victim machine. It is configured to monitor SSH traffic, system calls, and cron jobs.
-* **Kali Linux (Attacker):** The offensive machine used to launch brute-force attacks, create rogue accounts, and establish persistence against the two endpoints.
+## 1. The Environment Setup
+The lab network consists of four main systems, each serving a specific role in the attack and defense lifecycle:
+* **Splunk Server:** The central SIEM of the lab. It runs Splunk Enterprise, ingests all the endpoint telemetry, and hosts the detection alerts and dashboards.
+* **Windows 11 Endpoint:** The primary target host. It is heavily monitored using Sysmon and native Windows Event Logs to track local and network-based attacks.
+* **Linux Endpoint:** The secondary target host. It is configured with `auditd` and system logging to monitor SSH traffic, command executions, and cron jobs.
+* **Attacker Machine (Kali Linux):** The offensive system used to execute the simulated attacks, such as brute-forcing credentials and deploying reverse shells against the targets.
 
 ## 2. The Data Flow
 To make this function like a real Security Operations Center, the machines need to talk to each other. Here is how the data flows:

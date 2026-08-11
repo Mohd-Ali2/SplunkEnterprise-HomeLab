@@ -44,7 +44,12 @@ Detects the unauthorized creation of a local user account and its assignment to 
 
 #### Alert Screenshot 
 
+![alert](/screenshots/Account-creation/Triggered-Alerts.png)
+
+
 #### Event Screenshot
+
+![event](/screenshots/Account-creation/Event.png)
 
 
 ## SPL Query used 

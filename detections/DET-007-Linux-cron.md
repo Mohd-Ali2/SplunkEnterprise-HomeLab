@@ -39,13 +39,13 @@ The detection should return a direct hit showing the exact moment the crontab co
 
 ## MITRE Technique Mapping
 
-**Tactic**
+**Tactic** : 
 Persistence, Execution
 
-**Technique**
+**Technique** : 
 T1053.003 – Scheduled Task/Job: Cron
 
-**Procedure**
+**Procedure** : 
 An adversary pipes a malicious reverse shell payload (bash -i >& /dev/tcp/...) into the crontab utility, scheduling it to execute automatically upon system startup (@reboot) to maintain persistent remote access to the compromised Linux host.
 
 ## True Positives

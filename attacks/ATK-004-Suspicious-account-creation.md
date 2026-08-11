@@ -4,6 +4,10 @@ To simulate unauthorized local account creation on the target machine to establi
 
 ## Commands Used
 
+`net user back4door @Password123 /add`
+
+`net localgroup Administrators back4door /add`
+
 ## Target
 
 OS : Windows 11
@@ -18,9 +22,9 @@ Splunk is expected to ingest Windows Security Event IDs 4720 and 4732 to success
 
 he Splunk dashboard successfully fired the alert, capturing the exact timestamp, target host, and command-line execution used to create the rogue admin account.
 
-## Screenshots
+## Screenshot
 
-![alert](/screenshots/)
+![alert](/screenshots/Account-creation/Account-creation-command.png)
 
 ## MITRE Mapping
 

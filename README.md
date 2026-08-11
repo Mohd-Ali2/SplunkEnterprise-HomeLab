@@ -25,7 +25,12 @@ The goal is to gain practical experience with SIEM, endpoint telemetry, threat d
 
 # Technologies Used
 
+
+![SSH](https://img.shields.io/badge/SSH-%23222222.svg?style=for-the-badge&logo=gnubash&logoColor=white)
+
 ![Splunk](https://img.shields.io/badge/Splunk-%23000000.svg?style=for-the-badge&logo=splunk&logoColor=white)
+
+![Debian](https://img.shields.io/badge/Debian-%23A81D33.svg?style=for-the-badge&logo=debian&logoColor=white)
 
 ![Splunk Universal Forwarder](https://img.shields.io/badge/Splunk_Universal_Forwarder-%23000000.svg?style=for-the-badge&logo=splunk&logoColor=white)
 
@@ -39,7 +44,7 @@ The goal is to gain practical experience with SIEM, endpoint telemetry, threat d
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 
-![SSH](https://img.shields.io/badge/SSH-%23222222.svg?style=for-the-badge&logo=gnubash&logoColor=white)
+![Debian](https://img.shields.io/badge/Debian-%23A81D33.svg?style=for-the-badge&logo=debian&logoColor=white)
 
 
 ---

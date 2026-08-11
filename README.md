@@ -297,14 +297,6 @@ The `docs/` directory contains setup and troubleshooting documentation.
 └── Universal-Forwarder-installation.md
 ```
 
-## MITRE ATT&CK
-
-MITRE ATT&CK techniques are mapped to the simulated activity and documented within the detection and attack documentation.
-
-The `mitre/` directory contains the dedicated ATT&CK mapping documentation.
-
----
-
 # Skills Demonstrated
 
 - Skills Demonstrated

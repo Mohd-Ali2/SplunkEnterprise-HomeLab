@@ -25,6 +25,15 @@ The goal is to gain practical experience with SIEM, endpoint telemetry, threat d
 
 ![Lab Architecture](diagrams/lab-architecture.png)
 
+### Components
+
+- **Splunk Enterprise** – Central SIEM used for log ingestion, searching, detection, alerting, and investigation.
+- **Windows 11 Endpoint** – Generates Windows Security Event Logs and Sysmon telemetry.
+- **Linux Endpoint** – Generates authentication, system, audit, and cron-related logs.
+- **Kali Linux** – Used as the attacker machine for controlled attack simulations.
+- **Splunk Universal Forwarder** – Used to forward endpoint logs to the Splunk server.
+
+
 # Technologies Used
 
 
@@ -86,6 +95,28 @@ Splunk-Home-Lab/
 │───spl
 └── README.md
 ```
+
+# SOC Workflow
+
+The project follows a simple investigation workflow:
+
+```text
+Attack Simulation
+       ↓
+Endpoint Activity
+       ↓
+Log Collection
+       ↓
+Splunk Ingestion
+       ↓
+SPL Detection
+       ↓
+Alert Triggered
+       ↓
+Event Investigation
+       ↓
+Incident Documentation
+
 
 ---
 

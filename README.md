@@ -262,6 +262,11 @@ The `incidents/` directory contains the investigation records for the simulated 
 
 The incident reports contain the alert information, evidence, SPL query, raw log/event information, response actions, and investigation conclusion.
 
+# Configuration Files
+
+```
+configs/
+```
 
 ## Contains
 

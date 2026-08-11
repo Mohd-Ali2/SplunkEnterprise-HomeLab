@@ -26,6 +26,11 @@ High
 
 ## SPL Query 
 
+```
+index=* sourcetype=WinEventLog:Security EventCode=4720
+| table _time ComputerName Account_Name SAM_Account_Name
+```
+
 ## Expected Output 
 
 The detection should return Windows Security Event ID 4720 (A user account was created) and Event ID 4732 (A member was added to a security-enabled local group).

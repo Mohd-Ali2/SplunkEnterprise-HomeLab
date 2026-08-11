@@ -6,6 +6,8 @@ The SOC Dashboard was created in Splunk Enterprise to provide a central view of 
 
 The dashboard uses a time range filter and displays authentication activity, endpoint events, PowerShell activity, persistence-related events, and network activity.
 
+ ![SOC Dashboard](/dashboard/SOC%20Dashboard%20Overview.png)
+
 ## Dashboard Panels
 
 ### Events by Hosts
@@ -90,6 +92,3 @@ It was used to:
 - Investigate attack activity
 - Verify that logs were being received by Splunk
 
-## Dashboard Screenshot
-
-![SOC Dashboard](../screenshots/001-SSH-brute-force-linux/SSH-brute-force-attack-SOC-dashbaord.png)

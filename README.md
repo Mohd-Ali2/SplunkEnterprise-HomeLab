@@ -189,7 +189,7 @@ Each attack document contains :
 
 ---
 
-## Detection Rules
+## Detection
 
 The `detections/` directory contains the detection documentation for the seven alerts created in Splunk.
 

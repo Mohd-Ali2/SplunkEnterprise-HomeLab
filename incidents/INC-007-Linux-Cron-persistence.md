@@ -41,6 +41,8 @@ The Splunk alert successfully triggered upon detecting a command-line execution 
 
 #### Event Screenshot
 
+![alert](/screenshots/Linux-Cron-persistence/Event.png)
+
 
 ## SPL Query used
 

@@ -116,8 +116,7 @@ Alert Triggered
 Event Investigation
        ↓
 Incident Documentation
-
-
+```
 ---
 
 

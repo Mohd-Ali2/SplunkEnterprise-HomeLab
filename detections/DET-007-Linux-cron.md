@@ -14,13 +14,13 @@ Medium
 
 ## Data Source
 
-Linux Syslog / Auth logs (/var/log/syslog, /var/log/auth.log)
+`Linux Syslog / Auth logs (/var/log/syslog, /var/log/auth.log)`
 
-Linux Auditd (audit.log)
+`Linux Auditd (audit.log)`
 
-Sysmon for Linux (Event ID 1: Process Creation)
+`Sysmon for Linux (Event ID 1: Process Creation)`
 
-Splunk Universal Forwarder
+`Splunk Universal Forwarder`
 
 
 ## SPL Query 

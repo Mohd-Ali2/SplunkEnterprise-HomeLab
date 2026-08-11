@@ -126,7 +126,7 @@ For each attack, I captured the relevant evidence and documented the investigati
 
 A SOC dashboard was created to provide a central view of security activity and detection results.
 
-![dashboard](\screenshots\005-SSH-brute-force-successful-login\After-SOC%20Dashboard%20Overview.png)
+![dashboard](/screenshots/005-SSH-brute-force-successful-login/After-SOC%20Dashboard%20Overview.png)
 
 The dashboard is used to review:
 

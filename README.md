@@ -248,8 +248,7 @@ The `incidents/` directory contains the investigation records for the simulated 
 ├── INC-004-Suspicious-account-creation.md
 ├── INC-005-Succuesful-login-after-failed-attempts.md
 ├── INC-006-Windows-Failed-logins-type-2.md
-├── INC-007-Linux-Cron-persistence.md
-└── Mega-INC-report.md
+└── INC-007-Linux-Cron-persistence.md
 ```
 
 
